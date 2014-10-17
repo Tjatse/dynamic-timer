@@ -1,0 +1,36 @@
+{
+  "name": "dynamic-timer",
+  "version": "1.0.0",
+  "description": "Schedule execution of a one-time callback after delay milliseconds, automatic, intelligence and without bothering, the delay is calculated from different algorithms, e.g.: Lucas Sequence, Fibonacci Sequence, DaYan Series and Arithmetic Procession.",
+  "main": "lib/timer.js",
+  "scripts": {
+    "test": "mocha -R Spec -t 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Tjatse/dynamic-timer.git"
+  },
+  "keywords": [
+    "timer",
+    "intelligence",
+    "dynamic"
+  ],
+  "author": {
+    "name": "Tjatse"
+  },
+  "license": "Apache, Version 2.0",
+  "bugs": {
+    "url": "https://github.com/Tjatse/dynamic-timer/issues"
+  },
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "chai": "^1.9.1"
+  },
+  "readmeFilename": "README.md"
+}
