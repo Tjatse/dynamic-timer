@@ -1,6 +1,6 @@
 {
   "name": "dynamic-timer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Schedule execution of a one-time callback after delay milliseconds, automatic, intelligence and without bothering, the delay is calculated from different algorithms, e.g.: Lucas Sequence, Fibonacci Sequence, DaYan Series and Arithmetic Procession.",
   "main": "lib/timer.js",
   "scripts": {
