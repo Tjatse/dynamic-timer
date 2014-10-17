@@ -1,4 +1,4 @@
-dynamic-timer [![NPM version](https://badge.fury.io/js/dynamic-timer.svg)](http://badge.fury.io/js/dynamic-timer) [![Build Status](https://travis-ci.org/Tjatse/dynamic-timer.svg?branch=master)](https://travis-ci.org/Tjatse/node-readability)
+dynamic-timer [![NPM version](https://badge.fury.io/js/dynamic-timer.svg)](http://badge.fury.io/js/dynamic-timer) [![Build Status](https://travis-ci.org/Tjatse/dynamic-timer.svg?branch=master)](https://travis-ci.org/Tjatse/dynamic-timer)
 =============
 
 Schedule execution of a one-time callback after delay milliseconds, automatic, intelligence and without bothering, the delay is calculated from different algorithms, e.g.: Lucas Sequence, Fibonacci Sequence, DaYan Series and Arithmetic Procession.
