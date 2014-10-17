@@ -1,10 +1,10 @@
 {
   "name": "dynamic-timer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Schedule execution of a multi-time callback after delay milliseconds, automatic, intelligence and without bothering, the delay is calculated from different algorithms, e.g.: Lucas Sequence, Fibonacci Sequence, DaYan Series and Arithmetic Procession.",
   "main": "lib/timer.js",
   "scripts": {
-    "test": "mocha -R Spec -t 300000"
+    "test": "mocha -R spec -t 300000"
   },
   "repository": {
     "type": "git",
