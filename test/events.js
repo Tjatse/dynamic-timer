@@ -36,7 +36,7 @@ describe('Timer', function(){
   });
 
   describe('should resumed', function(){
-    it('after be paused', function(done){
+    it('after being paused', function(done){
       var dynamicTimeout = dynamicTimer();
       dynamicTimeout.on('tick', function(){
         dynamicTimeout.attempts.should.above(0);
