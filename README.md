@@ -11,12 +11,12 @@ npm install dynamic-timer
 ```
 
 ## Guide
-- [Usage](#Usage)
-- [Events](#Events)
-- [Methods](#Methods)
-- [Properties](#Properties)
-- [Example](#Example)
-- [Test](#Test)
+- [Usage](#usage)
+- [Events](#events)
+- [Methods](#methods)
+- [Properties](#properties)
+- [Example](#example)
+- [Test](#test)
 
 ## Usage
 ``` javascript
