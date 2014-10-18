@@ -96,19 +96,19 @@ dynamicTimeout.start();
 ```
 
 ### stop
-Stop the Timer, when current state of Timer was `STOP`, this event triggered nothing.
+Stop the Timer, when current state of Timer is `STOP`, this event triggered nothing.
 ```javascript
 dynamicTimeout.stop();
 ```
 
 ### pause
-Stop the Timer, when current state of Timer was not `RUNNING`, this event triggered nothing.
+Stop the Timer, when current state of Timer is not `RUNNING`, this event triggered nothing.
 ```javascript
 dynamicTimeout.pause();
 ```
 
 ### resume
-Resume the Timer, when current state of Timer was not `PAUSE`, this event triggered nothing.
+Resume the Timer, when current state of Timer is not `PAUSE`, this event triggered nothing.
 ```javascript
 dynamicTimeout.resume();
 ```
@@ -119,7 +119,7 @@ Reset the Timer to initial status.
 // stop timer.
 dynamicTimeout.reset(true);
 ```
-The argument indicates whether stop the timer or not, if it was not passed or set to `false`, just reset Timer and tick again from initial status.
+The argument indicates whether stop the timer or not, if it was not passed in or set to `false`, just reset Timer and tick again from initial status.
 
 ## Properties
 ### attempts
